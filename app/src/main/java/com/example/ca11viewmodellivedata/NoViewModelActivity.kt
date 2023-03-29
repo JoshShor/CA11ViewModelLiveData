@@ -12,6 +12,8 @@ class NoViewModelActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_no_view_model)
 
+        findViewById<TextView>(R.id.tvCount).text = "0"
+
         var counter = 0
 
         findViewById<Button>(R.id.bIncNVM).setOnClickListener {

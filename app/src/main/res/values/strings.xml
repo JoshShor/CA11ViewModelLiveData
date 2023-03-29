@@ -1,3 +1,9 @@
-<resources>
-    <string name="app_name">CA11ViewModelLiveData</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">CA11ViewModelLiveData</string>
+    <string name="increment_ncm">Increment NCM</string>
+    <string name="increment_vm">Increment VM</string>
+    <string name="increment_ld">Increment LD</string>
+    <string name="nvm_btn">NoViewModel</string>
+    <string name="vmBtn">ViewModel</string>
+    <string name="ldBtn">LiveButton</string>
 </resources>
